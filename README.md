@@ -15,3 +15,4 @@
 ## Triton
 
     sh docker_triton.sh
+    tritonserver --model-repository `pwd`/face
